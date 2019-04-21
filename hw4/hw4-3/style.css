@@ -1,0 +1,69 @@
+body {
+    background-color: black !important;
+    width: 100% !important;
+    height: auto;
+}
+
+#myForm {
+    float: left;
+    max-width: 60%;
+    min-height: 460px;
+    position: relative;
+    left: 33%;
+    top: 75px;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom right, yellow, orange, purple) 70;
+}
+
+label {
+    display: inline-block;
+    width: 135px;;
+}
+
+input {
+    margin: 0;
+    min-width: 200px;
+    margin-top: 15px;
+}
+
+.text {
+    min-height: 40px;
+    min-width: 200px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.submitButton {
+    background: none;
+    border: none;
+    margin-top: 150px;
+    line-height: 35px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+#fields {
+    margin: auto;
+    margin-top: 45px;
+    padding-left: 48px;
+    max-width: 430px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.error {
+    color: #ffffff;
+    font-size: x-small;
+    font-style: italic;
+    line-height: 20px;
+}
