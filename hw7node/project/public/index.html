@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--ОСНОВНЫЕ СТИЛИ-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>e-Shop</title>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="logo">E-shop</div>
+            <div class="cart">
+                <filter-el></filter-el>
+                <cart ref="cart"></cart>
+            </div>
+        </header>
+        <main>
+            <products ref="products"></products>
+            <error ref="error"></error>
+        </main>
+
+
+    </div>
+
+
+    <!--ОСНОВНОЙ СКРИПТ-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/productComponent.js"></script>
+    <script src="js/basketComponent.js"></script>
+    <script src="js/errorComponent.js"></script>
+    <script src="js/searchComponent.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+   
+</body>
+
+</html>
